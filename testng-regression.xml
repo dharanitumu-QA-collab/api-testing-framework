@@ -1,0 +1,11 @@
+<suite name="RegressionSuite">
+    <test name="Regression">
+        <groups>
+            <run><include name="regression"/></run>
+        </groups>
+        <classes>
+            <class name="tests.BookingTest"/>
+            <class name="tests.BookingDataDrivenTest"/>
+        </classes>
+    </test>
+</suite>

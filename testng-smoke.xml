@@ -1,0 +1,11 @@
+<suite name="SmokeSuite">
+    <test name="Smoke">
+        <groups>
+            <run><include name="smoke"/></run>
+        </groups>
+        <classes>
+            <class name="tests.BookingTest"/>
+            <class name="tests.BookingDataDrivenTest"/>
+        </classes>
+    </test>
+</suite>
