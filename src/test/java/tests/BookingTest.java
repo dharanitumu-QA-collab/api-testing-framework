@@ -41,6 +41,7 @@ public class BookingTest {
 
         Booking retrieved = bookingClient.getBooking(bookingId).as(Booking.class);
         System.out.println(retrieved.getFirstname());
+        System.out.println("testing the build");
 
         // UPDATE
         booking.setTotalprice(200);
